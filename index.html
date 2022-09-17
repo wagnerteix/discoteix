@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Discoteix v2- ID3</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Discoteix
+  </h1>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt=""><br>
+  <h1 class="page-subtitle">
+    Apresento a vocês alguns discos que marcaram minha vida.<br>Espero que gostem!
+  </h1>
+  <div id="resultado">
+  </div>
+  <div id="botoes">
+    <button id="botao1" type="submit" onclick="Emicida()">Prévia Emicida</button>
+    <button id="botao2" type="submit" onclick="Racionais()">Prévia Racionais</button>
+    <button id="botao3" type="submit" onclick="Contrafluxo()">Prévia Contrafluxo</button>
+  </div><br><br><br>
+  <div id="sugestoes"></div>
+  <h1 class="page-title">Gostaria de sugerir algum disco pra mim?</h1>
+  <input type="text" id="sugestao" placeholder="Insira o link da sua sugestão">
+  <button type="submit" class="sugerir-botao" onclick="sugerir()">Ouve aí!</button>
+  <div class="img" id="sugestaoImg">
+  </div>
+  <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  </a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
